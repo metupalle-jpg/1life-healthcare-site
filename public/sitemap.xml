@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-<url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/founder.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
-<url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/partners.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-<url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/contact.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/</loc><priority>1.0</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/founder.html</loc><priority>0.9</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/partners.html</loc><priority>0.8</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/contact.html</loc><priority>0.7</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/insights.html</loc><priority>0.9</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/insights/ai-transforming-clinical-decision.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/insights/population-health-data-platforms.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/insights/value-based-care-economics.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/insights/digital-front-door-patient.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/insights/genai-payor-operations.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/insights/iot-remote-monitoring.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/insights/health-equity-analytics.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/insights/risk-adjustment-ml.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/insights/telehealth-roi.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/insights/interoperability-fhir.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/insights/chronic-disease-ai.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/insights/social-determinants-data.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/insights/bundled-payments-strategy.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/insights/digital-therapeutics.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/insights/ambient-ai-clinical.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/insights/pop-health-gcc.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/insights/healthcare-unit-economics.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/insights/cloud-ehr-modernization.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/insights/predictive-analytics-insurance.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://onelife-healthcare-389848866614.me-central1.run.app/insights/health-consulting-dubai.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
