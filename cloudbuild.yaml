@@ -1,0 +1,22 @@
+steps:
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["build", "-t", "me-central1-docker.pkg.dev/dave-487819/cloud-run-source-deploy/1life-healthcare-site", "."]
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["push", "me-central1-docker.pkg.dev/dave-487819/cloud-run-source-deploy/1life-healthcare-site"]
+  - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
+    entrypoint: gcloud
+    args:
+      - "run"
+      - "deploy"
+      - "1life-healthcare-site"
+      - "--image"
+      - "me-central1-docker.pkg.dev/dave-487819/cloud-run-source-deploy/1life-healthcare-site"
+      - "--region"
+      - "me-central1"
+      - "--platform"
+      - "managed"
+      - "--allow-unauthenticated"
+      - "--port"
+      - "8080"
+images:
+  - "me-central1-docker.pkg.dev/dave-487819/cloud-run-source-deploy/1life-healthcare-site"
