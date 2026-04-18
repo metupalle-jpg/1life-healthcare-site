@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width="200" height="240">
+  <defs>
+    <clipPath id="clip">
+      <rect x="0" y="0" width="200" height="200"/>
+    </clipPath>
+  </defs>
+  <!-- Outer arc -->
+  <path d="M160,30 A80,80 0 1,1 40,160" stroke="#4FC3F7" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <!-- Inner circle -->
+  <circle cx="100" cy="100" r="55" stroke="#4FC3F7" stroke-width="12" fill="none"/>
+  <!-- Small arc connector top-right -->
+  <path d="M145,45 A60,60 0 0,1 155,100" stroke="#4FC3F7" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Green cross -->
+  <rect x="88" y="70" width="24" height="60" rx="4" fill="#4CAF50"/>
+  <rect x="70" y="88" width="60" height="24" rx="4" fill="#4CAF50"/>
+  <!-- Text -->
+  <text x="100" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="bold" fill="#263238">1 Life Healthcare</text>
+  <text x="100" y="218" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#607D8B" letter-spacing="1">Towards Better Health Outcomes</text>
+</svg>
