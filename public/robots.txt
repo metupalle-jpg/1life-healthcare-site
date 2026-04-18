@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://onelife-healthcare-389848866614.me-central1.run.app/sitemap.xml
