@@ -1,16 +1,16 @@
 steps:
   - name: "gcr.io/cloud-builders/docker"
-    args: ["build", "-t", "me-central1-docker.pkg.dev/dave-487819/cloud-run-source-deploy/1life-healthcare-site", "."]
+    args: ["build", "-t", "me-central1-docker.pkg.dev/dave-487819/cloud-run-source-deploy/onelife-healthcare", "."]
   - name: "gcr.io/cloud-builders/docker"
-    args: ["push", "me-central1-docker.pkg.dev/dave-487819/cloud-run-source-deploy/1life-healthcare-site"]
+    args: ["push", "me-central1-docker.pkg.dev/dave-487819/cloud-run-source-deploy/onelife-healthcare"]
   - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
     entrypoint: gcloud
     args:
       - "run"
       - "deploy"
-      - "1life-healthcare-site"
+      - "onelife-healthcare"
       - "--image"
-      - "me-central1-docker.pkg.dev/dave-487819/cloud-run-source-deploy/1life-healthcare-site"
+      - "me-central1-docker.pkg.dev/dave-487819/cloud-run-source-deploy/onelife-healthcare"
       - "--region"
       - "me-central1"
       - "--platform"
@@ -19,4 +19,4 @@ steps:
       - "--port"
       - "8080"
 images:
-  - "me-central1-docker.pkg.dev/dave-487819/cloud-run-source-deploy/1life-healthcare-site"
+  - "me-central1-docker.pkg.dev/dave-487819/cloud-run-source-deploy/onelife-healthcare"
